@@ -1,6 +1,6 @@
 def square_array(array)
   array = [1, 2, 3]
-  i = 0
-  while array < i do
+  new_array = []
+  while array.length.times do
     i ** 2
 end
