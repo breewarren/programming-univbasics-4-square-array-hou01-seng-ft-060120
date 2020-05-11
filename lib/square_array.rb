@@ -4,3 +4,5 @@ def square_array(array)
   while array.length.times do
     i ** 2
 end
+
+array[count] ** 2
