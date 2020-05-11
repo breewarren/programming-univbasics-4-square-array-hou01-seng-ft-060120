@@ -1,5 +1,5 @@
+array = [1, 2, 3, 4]
 def square_array(array)
-  array = [1, 2, 3]
   count = 0
   new_array = []
   while count < array.length do
@@ -14,9 +14,9 @@ array = [1,2,3,4]
 def square_array(array)
   new_array = []
   count = 0
-  square = new_array.push(array**)
   while count < array.length do
-    puts square
+ squared = new_array.push(array[count]**2)
     count += 1
   end
+Return new_array
 end
